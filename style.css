@@ -1,12 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  text-decoration: none;
-}
-
-:root {
-  --accent-color: #fff;
-  --gradient-color: #FBFBFB;
 }
 
 body {
@@ -49,6 +43,8 @@ body {
   border-left: 5px solid transparent;
   font-family: 'Lato', sans-serif;
   transition: all .5s ease;
+  text-decoration: none;
+
 }
 
 a.active,
@@ -257,4 +253,18 @@ th {
 
 tr:hover {
   background-color: #f5f5f5;
+}
+
+h3{
+  text-align: center;
+  color: #353535;
+  font-size: 32px;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  color: #664687;
+}
+
+#hover{
+  background: none;
+  text-decoration: underline;
 }
